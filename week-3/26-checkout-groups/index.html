@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/week3-forms.css" />
   </head>
 
-  <body>
+  <body style="font-family: Arial, Helvetica, sans-serif;">
     <div class="site-wrapper">
       <main>
         <div class="shopping-basket">
@@ -37,8 +37,43 @@
         <div class="checkout">
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
-            <!-- Add the form fields here -->
-
+            <div>
+              <fieldset>
+                <legend>Billing Address</legend>
+                <br />
+                <label>Address Line 1</label>
+                <input type="text" />
+                <br />
+                <label>Address Line 2</label>
+                <input type="text" />
+                <br />
+                <label>Postcode</label>
+                <input type="text" />
+                <br />
+                <label>City</label>
+                <input type="text" />
+                <br />
+              </fieldset>
+            </div>
+            <br />
+            <div>
+              <fieldset>
+                <legend>Delivery Address</legend>
+                <br />
+                <label>Address Line 1</label>
+                <input type="text" />
+                <br />
+                <label>Address Line 2</label>
+                <input type="text" />
+                <br />
+                <label>Postcode</label>
+                <input type="text" />
+                <br />
+                <label>City</label>
+                <input type="text" />
+                <br />
+              </fieldset>
+            </div>
             <button type="submit">Complete Purchase</button>
           </form>
         </div>
