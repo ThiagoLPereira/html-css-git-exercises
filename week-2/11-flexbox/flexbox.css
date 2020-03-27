@@ -1,10 +1,21 @@
 /* Add your own CSS code below */
+.country {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .countries--first {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
+  width: 550px;
 }
+
 .countries--second {
   display: flex;
   flex-direction: column;
+  width: 550px;
+}
+.countries--third {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 550px;
 }
