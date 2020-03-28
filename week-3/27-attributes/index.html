@@ -73,15 +73,27 @@
                   type="text"
                   name="delivery-address-postcode"
                   id="delivery-address-postcode"
+                  value="EH7 123"
                 />
               </p>
               <p>
                 <label for="delivery-address-city">City</label>
-                <input type="text" name="delivery-address-city" id="delivery-address-city" />
+                <input
+                  type="text"
+                  name="delivery-address-city"
+                  id="delivery-address-city"
+                  required="required"
+                />
               </p>
               <p>
                 <label for="delivery-country">Country</label>
-                <input type="text" name="delivery-country" id="delivery-country" />
+                <input
+                  type="text"
+                  name="delivery-country"
+                  id="delivery-country"
+                  value="United Kingdom"
+                  readonly="readonly"
+                />
               </p>
               <fieldset>
                 <legend>Delivery Options</legend>
@@ -91,6 +103,7 @@
                     name="delivery-option"
                     id="delivery-option"
                     value="standard"
+                    checked="checked"
                   />
                   Royal Mail
                 </label>
